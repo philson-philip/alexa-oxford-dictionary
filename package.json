@@ -1,0 +1,23 @@
+{
+  "name": "alexa-oxford-dictionary",
+  "version": "1.0.0",
+  "description": "A sample Alexa Skill project using Oxford Dictionary API to find the word definitions",
+  "main": "index.js",
+  "dependencies": {
+    "oxford-dictionary-api": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philson-philip/alexa-oxford-dictionary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philson-philip/alexa-oxford-dictionary/issues"
+  },
+  "homepage": "https://github.com/philson-philip/alexa-oxford-dictionary#readme"
+}
