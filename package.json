@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "alexa-app": "^4.2.2",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "oxford-dictionary-api": "^1.0.1"
   },
