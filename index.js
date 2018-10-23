@@ -5,7 +5,7 @@ var PORT = process.env.PORT || 8080;
 var app = express();
 
 // ALWAYS setup the alexa app and attach it to express before anything else.
-var alexaApp = new alexa.app("test");
+var alexaApp = new alexa.app("alexa");
 
 alexaApp.express({
   expressApp: app,
@@ -37,8 +37,8 @@ alexaApp.intent("GetMeaning", {
 },
 function(request, response) {
   //var Dictionary = require("oxford-dictionary-api");
-  //var app_id = "ed07b36c";
-  //var app_key = "3fe0e2f2f85f13cbfaa906fbd2d16a98";
+  //var app_id = "";
+  //var app_key = "";
   //var dict = new Dictionary(app_id, app_key);
   //dict.find("hello",function(error,data){
   //  if(error)
