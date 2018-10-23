@@ -8,5 +8,5 @@ dict.find("hello",function(error,data){
     return console.log(error);
   else
    var definition = data["results"][0]["lexicalEntries"][0]["entries"][0]["senses"][0]["definitions"][0];
-   console.log(definition);
+   return console.log(definition);
   });
